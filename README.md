@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python Foundations
 
 A structured repository documenting my journey from Python fundamentals to advanced software engineering concepts, automation, and real-world projects.
@@ -126,3 +127,7 @@ Most folders contain both notebooks used for learning and standalone Python scri
 ---
 
 *This repository is actively maintained as part of my software engineering and AI learning journey.*
+=======
+# python-foundations
+Master Python fundamentals and software engineering.
+>>>>>>> babaa0a2aec0d507f32c50bfaa3c6612a3ba73d4
