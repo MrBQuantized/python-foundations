@@ -9,6 +9,8 @@ This repository serves as both a personal knowledge base and a portfolio of hand
 ```text
 Python-Foundations/
 │
+├── .gitignore
+├── README.md
 ├── 01_Core/
 │   ├── Variables & Data Types
 │   ├── Strings
@@ -82,7 +84,6 @@ Python-Foundations/
 * Threading (planned)
 * Databases (planned)
 * Subprocess (planned)
-
 
 ## Repository Goals
 
