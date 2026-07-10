@@ -6,9 +6,9 @@ This repository serves as both a personal knowledge base and a portfolio of hand
 
 ## Repository Structure
 
-```text
 Python-Foundations/
-│
+├── .gitignore
+├── README.md
 ├── 01_Core/
 │   ├── Variables & Data Types
 │   ├── Strings
