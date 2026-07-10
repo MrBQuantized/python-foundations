@@ -8,10 +8,6 @@ This repository serves as both a personal knowledge base and a portfolio of hand
 
 ```text
 Python-Foundations/
-<<<<<<< HEAD
-│
-=======
->>>>>>> 4c4050987b562f6ee75bb1216829897036d5c7ec
 ├── .gitignore
 ├── README.md
 ├── 01_Core/
