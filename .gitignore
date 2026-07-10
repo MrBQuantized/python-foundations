@@ -1,0 +1,68 @@
+# ======================
+# TUTORIAL VIDEOS (local reference only, never commit)
+# ======================
+Tutorials/
+*.mp4
+*.mov
+
+# ======================
+# COURSE / TEXTBOOK PDFs (copyrighted, keep local only)
+# ======================
+*.pdf
+
+# ======================
+# PYTHON
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# ======================
+# JUPYTER NOTEBOOKS
+# ======================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ======================
+# VS CODE / EDITOR ARTIFACTS
+# ======================
+.vscode/
+.qodo/
+tempCodeRunnerFile.py
+*.code-workspace
+
+# ======================
+# OS FILES
+# ======================
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ======================
+# LOGS & TEMP
+# ======================
+*.log
+*.tmp
+*.temp
+.cache/
+
+# ======================
+# ARCHIVES
+# ======================
+*.zip
+*.tar.gz
+*.rar
+
+# ======================
+# EXERCISES — WIP, exclude all subfolders until finished
+# ======================
+05_Exercises/*/
