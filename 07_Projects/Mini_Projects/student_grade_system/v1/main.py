@@ -1,15 +1,14 @@
 
 from student import Student
+from grade_utils import is_valid_score
 
-from grade_utils import (
-    calculate_average, 
-    is_valid_score, 
-    highest_score,
-    lowest_score
-)
 
 def main():
-    print("==== 🧮 Student Grade Calculator ===\n")
+    print("""
+================================ 
+🧮 Student Grade Calculator 
+================================ 
+\n""")
     
     students = []
     

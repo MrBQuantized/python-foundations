@@ -2,8 +2,6 @@
 
 ---
 
-(![alt text](image.png))
-
 ## Description
 
 > **A Python command-line application for managing student grades.**
@@ -15,10 +13,7 @@
 - Add student
 - Calculate grade
 - Display student information
-- Save student information
-- Save student records
-- Load saved records
-
+  
 ---
 
 ## Project Structure
@@ -47,7 +42,6 @@ student_grade_system/
 ```text
 - Functions
 - OOP
-- File handling
 - Modules
 - Input Validation
 ```
@@ -67,7 +61,6 @@ This is the entry point of the project. Its job is not to do everything. It simp
 - Get user
 - Call functions
 - Create Student objects
-- Save data
 - Exit
 ```
 
@@ -97,47 +90,20 @@ Utilities are helper functions. Instead of putting calculations inside `main.py`
 
 ```text
 - is_valid_score()
-- calculate_average()
-- highest_score()
-- lowest_score()
 ```
 
 **Future considerations**:
 
 ```text
+- calculate_average()
+- highest_score()
+- lowest_score()
 - pass_rate()
 - class_average()
 - median_average()
 ```
 
 ___This keeps calculations separate from the rest of the project___
-
-### `file_handler.py`
-
-Responsible for reading and writing files. Nothing else.
-
-**Functions**:
-
-```text
-- save_student()
-- load_students()
-```
-
-**Future Considerations**:
-
-```text
-- delete_student()
-- update_student()
-- export_csv()
-```
-
-### `student.txt`
-
-This is your database. Instead of sql, you're storing records inside a text file.
-
-### `requirements.txt`
-
-Remains empty for now, but will be filled with list of packages.
 
 ---
 
@@ -155,15 +121,10 @@ main.py
    |                                 Student object
    |
    |
-   ├───────────────────────────────────► grade_utils.py
-   |                                         |
-   |                                         ▼
-   |                                 Calculations
-   |
-   └───────────────────────────────────► file_handler.py
-                                             |  
-                                             ▼
-                                     students.txt
+   └───────────────────────────────────►  grade_utils.py
+                                            |
+                                            ▼
+                                     Calculations
 ```
 
 ---
@@ -171,6 +132,7 @@ main.py
 ## Future Improvements
 
 ```text
+- File Handling
 - GUI
 - Database
 - Multiple subjects
