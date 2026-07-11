@@ -1,31 +1,17 @@
-"""Practice script for OOP. 
-Covers static and instance attributes, their differences
-and when to use each attribute.
 """
+Practice script for OOP.
 
-# =================================================
-# Static Vs Instance Attributes
-# =================================================
-"""
-# Static Attributes
-====================
-- A Static attribute (sometimes called a class attribute)
-is an attribute that belongs to the class itself, not to any 
-specific instance of the class.
-- They are shared by all instances or objects
-of the class.
-- There is only one copy of a static attribute in memory regardless
-of the number of instances or object created.
-- They can be accessed by both their classes and instances. 
-- Can be accessed with class name and attribute name.
-- Ideal for storing default/constant data shared among all instances
-E.g default configuration settings.
+Topic: Static vs Instance Attributes
 
-# Instance Attributes
-======================
-- They are created in the init method
-- Unique to each instance created (i.e. Belong to specific instances)
-- Ideal for storing object-specific data.
+Static (class) attributes belong to the class and are shared by all
+instances. They are useful for storing data common to every object.
+
+Instance attributes belong to individual objects. They are usually
+created in the __init__() method and store data unique to each instance.
+
+Tip:
+Experiment with the code by commenting, uncommenting, modifying, or
+adding lines and rerunning the script to observe the results.
 """
 
 class User:

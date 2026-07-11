@@ -1,5 +1,16 @@
-"""Practice script for OOP. 
-Covers classes, objects
+"""
+Practice script for OOP.
+
+Topic: Classes and Objects
+
+A class is a blueprint for creating objects. It defines the
+attributes (data) and methods (behaviors) that its objects will have.
+
+An object is an instance of a class.
+
+Tip:
+Experiment with the code by commenting, uncommenting, modifying, or
+adding lines and rerunning the script to observe the results.
 """
 
 # =================================================
