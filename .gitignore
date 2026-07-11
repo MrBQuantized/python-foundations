@@ -63,6 +63,13 @@ $RECYCLE.BIN/
 *.rar
 
 # ======================
-# EXERCISES — WIP, exclude all subfolders until finished
+# WIP — unfinished project work, hidden until moved into 06_PROJECTS/
 # ======================
-05_Exercises/*/
+_WIP/
+
+# ======================
+# EXERCISES — WIP, exclude all subfolders until finished
+# Un-ignore a specific folder once it's done, e.g.:
+# !05_EXERCISES/dsa/
+# ======================
+05_EXERCISES/*/

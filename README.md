@@ -7,82 +7,99 @@ This repository serves as both a personal knowledge base and a portfolio of hand
 ## Repository Structure
 
 ```text
-Python-Foundations/
+python-foundations/
 ├── .gitignore
 ├── README.md
-├── 01_Core/
-│   ├── Variables & Data Types
-│   ├── Strings
-│   ├── Conditionals
-│   ├── Loops
-│   ├── Functions
-│   ├── File Handling
-│   ├── Exception Handling
-│   ├── Modules & Standard Library
-│   ├── pathlib
-│   └── os module
-│
-├── 02_OOP_Intermediate/
-│   ├── Classes & Objects
-│   ├── Inheritance
-│   ├── Encapsulation
-│   ├── Abstraction
-│   ├── Polymorphism
-│   ├── Static & Instance Methods
-│   └── Class & Instance Attributes
-│
-├── 03_Advanced/
-│
-├── 04_Software_Engineering/
-│   ├── pathlib & os
-│   ├── Git
-│   ├── Databases
-│   ├── Testing
-│   ├── Threading
-│   └── Subprocess
-│
-└── 07_Projects/
-    └── Mini_Projects/
-        ├── Student Grade System
-        └── Bank Account System
+├── 01_CORE/
+│   ├── data_types/
+│   ├── control_flow/
+│   ├── functions/
+│   └── modules/
+├── 02_OOP_AND_INTERMEDIATE/
+│   ├── oop/
+│   ├── exceptions/
+│   ├── file_handling/
+│   ├── comprehensions/
+│   ├── regular_expressions/
+│   ├── itertools/
+│   └── collections/
+├── 03_ADVANCED/
+│   ├── decorators/
+│   ├── generators/
+│   ├── iterators/
+│   ├── context_managers/
+│   ├── concurrency/
+│   ├── type_hints/
+│   ├── dataclasses/
+│   └── unit_testing/
+├── 04_SOFTWARE_ENGINEERING/
+│   ├── git/
+│   ├── github/
+│   ├── virtual_environments/
+│   ├── pip/
+│   ├── pipenv/
+│   ├── poetry/
+│   ├── conda/
+│   ├── environment_variables/
+│   ├── setting_path/
+│   ├── switching_python_versions/
+│   ├── packaging/
+│   └── ci_cd/
+├── 05_EXERCISES/
+│   ├── dsa/
+│   └── ... (topic-based practice sets, WIP until finished)
+├── 06_PROJECTS/
+│   ├── mini_projects/
+│   ├── api_projects/
+│   ├── csv_to_html/
+│   ├── file_organizer/
+│   ├── excel_automation/
+│   └── pdf_automation/
+├── _WIP/                  (in-progress project work, local reference only)
+└── Tutorials/              (downloaded course videos, local reference only)
 ```
 
 ## Topics Covered
 
-### Python Fundamentals
+### 01 — Core
 
-* Variables and data types
-* Strings
-* Numbers
-* Lists, tuples, sets, and dictionaries
-* Boolean logic
-* Conditional statements
-* Loops and iteration
+* Data types: strings, integers/floats, lists/tuples/sets, dictionaries
+* Control flow: conditionals, loops, iteration
 * Functions
-* Exception handling
-* File handling
-* Modules and the Python Standard Library
+* Standard library modules: `os`, `pathlib`, `datetime`, `csv`, `json`, `sqlite3`, `subprocess`
 
-### Object-Oriented Programming
+### 02 — OOP and Intermediate
 
-* Classes and objects
-* Instance vs class attributes
-* Instance vs static methods
-* Encapsulation
-* Inheritance
-* Polymorphism
-* Abstraction
+* Classes and objects, inheritance, encapsulation, abstraction, polymorphism
+* Instance vs. class/static methods and attributes
+* Exception handling and file handling
+* Comprehensions, regular expressions, itertools, collections
 
-### Software Engineering
+### 03 — Advanced
 
-* File system automation with `pathlib`
-* Working with the `os` module
-* Project organization
-* Git fundamentals
-* Testing (planned)
-* Threading (planned)
-* Databases (planned)
-* Subprocess (planned)
+* Decorators, generators, iterators, context managers
+* Concurrency (threading, asyncio)
+* Type hints, dataclasses
+* Unit testing (`unittest`, `pytest`)
+
+### 04 — Software Engineering
+
+* Git and GitHub
+* Virtual environments (venv, pipenv, poetry, conda)
+* Environment variables, PATH configuration, switching Python versions
+* Packaging and CI/CD fundamentals
+
+### 05 — Exercises
+
+* Topic-based practice sets (conditionals/loops, dictionaries, functions, file handling, OOP)
+* Data Structures & Algorithms notebooks
+* Kept as work-in-progress until each set is complete, then tracked in git
+
+### 06 — Projects
+
+* Mini projects: bank account system, student grade system
+* API projects: working with `requests` and REST APIs
+* Automation projects: CSV-to-HTML, file organizer, Excel automation, PDF automation
 
 ## Repository Goals
 
@@ -102,26 +119,11 @@ This repository is intended to:
 * Git
 * GitHub
 
-## Future Plans
-
-Upcoming additions include:
-
-* Advanced Python concepts
-* Functional programming
-* Iterators and generators
-* Decorators
-* Context managers
-* Concurrency and multiprocessing
-* Testing with `pytest`
-* SQL and database integration
-* Automation projects
-* APIs
-* Data processing
-* AI and machine learning foundations
-
 ## Notes
 
-Most folders contain both notebooks used for learning and standalone Python scripts used for experimentation and implementation. As I continue learning, existing code will be refactored and improved to reflect better design practices and cleaner architecture.
+Most folders contain both notebooks used for learning and standalone Python scripts used for experimentation and implementation. `_WIP/` holds project work that's genuinely in progress and is excluded from version control entirely — once a project is finished, it moves into its proper home under `06_PROJECTS/` and becomes visible in the repo for the first time. `Tutorials/` holds downloaded course videos for personal reference only and is likewise excluded from version control entirely.
+
+As I continue learning, existing code will be refactored and improved to reflect better design practices and cleaner architecture.
 
 ---
 
