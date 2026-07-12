@@ -14,6 +14,7 @@ Experiment with the code by commenting, uncommenting, modifying, or
 adding lines and rerunning the script to observe the results.
 """
 
+
 class User:
     user_count = 0
     """static attribute initialized to zero"""

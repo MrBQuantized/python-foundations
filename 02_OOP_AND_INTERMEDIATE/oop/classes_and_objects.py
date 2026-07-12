@@ -16,10 +16,6 @@ adding lines and rerunning the script to observe the results.
 # =================================================
 # Understanding Classes and Objects
 # =================================================
-# Class — a blueprint for creating objects 
-# It defines the methods or functions or attributes for objects.
-# Object — an instance of a class
-
 
 name = 'Blessing'
 age = 25
