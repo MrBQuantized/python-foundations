@@ -73,3 +73,12 @@ _WIP/
 # !05_EXERCISES/dsa/
 # ======================
 05_EXERCISES/*/
+
+
+# ======================
+# MARKDOWN FILES
+# ======================
+# Ignore all markdown files in subfolders
+**/*.md
+# Keep only the readme file  in the parent directory
+!**/README.md

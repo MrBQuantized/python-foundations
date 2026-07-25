@@ -1,0 +1,47 @@
+# ==========================
+# Basic Syntax
+# ==========================
+
+# Config file
+name = "My Project"
+version = "1.0.0"
+website = "https://example.com"
+
+# Create table
+[items]
+numbers = [1,2,3]
+letters = ['a', 'b', 'c']
+
+# Subtable
+[items.details]
+updated = true          # booleans are written in lowercase
+author = "John Doe"
+
+[database]
+type = "sqlite"
+path = "data.db"
+
+# We can also get sub-keys
+[db]
+file.type = "sqlite"
+file.path = "data.db"
+
+# Toml uses encodiing utf-8 so funky symbols are allowed
+# However, these symbols must be surroundedd by quotation marks
+[Funky_details]
+"ž" = "I have no idea"
+"Ø" = "Danish zero"
+
+# Inline table
+[inline_table]
+inline = {name = "John Doe", age = 30}
+
+# List of tables
+[[table_group]]
+fruit = "apple"
+
+[[table_group]]
+fruit = "orange"
+
+[[table_group]]
+fruit = "banana"

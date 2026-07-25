@@ -1,116 +1,168 @@
-# Python Foundations
+# Python Mastery
 
-A structured repository documenting my journey from Python fundamentals to advanced software engineering concepts, automation, and real-world projects.
+A structured knowledge base documenting my journey from Python fundamentals to advanced programming, software engineering, and real-world application development.
 
-This repository serves as both a personal knowledge base and a portfolio of hands-on Python practice. Rather than simply completing tutorials, I organize concepts, experiments, notebooks, and projects in a way that allows me to revisit, improve, and build upon them over time.
+Rather than simply completing tutorials, this repository is organized as a long-term learning resource containing notes, experiments, Jupyter notebooks, scripts, exercises, and projects. As my understanding grows, existing material is revisited, refactored, and expanded to reflect better practices and deeper knowledge.
+
+---
 
 ## Repository Structure
 
 ```text
-python-foundations/
-├── .gitignore
+PYTHON_MASTERY/
 ├── README.md
+├── .gitignore
+│
 ├── 01_CORE/
 │   ├── data_types/
 │   ├── control_flow/
 │   ├── functions/
 │   └── modules/
+│
 ├── 02_OOP_AND_INTERMEDIATE/
 │   ├── oop/
+│   ├── comprehensions/
 │   ├── exceptions/
 │   ├── file_handling/
-│   ├── comprehensions/
-│   ├── regular_expressions/
-│   ├── itertools/
-│   └── collections/
-├── 03_ADVANCED/
-│   ├── decorators/
 │   ├── generators/
-│   ├── iterators/
-│   ├── context_managers/
+│   ├── decorators/
+│   ├── itertools/
+│   ├── collections/
+│   └── regular_expressions/
+│
+├── 03_ADVANCED/
 │   ├── concurrency/
-│   ├── type_hints/
-│   ├── dataclasses/
+│   ├── iterators/
 │   └── unit_testing/
+│
 ├── 04_SOFTWARE_ENGINEERING/
+│   ├── apis/
+│   ├── ci_cd/
+│   ├── conda/
+│   ├── databases/
+│   ├── design_patterns/
+│   ├── dsa/
+│   ├── environment_variables/
 │   ├── git/
 │   ├── github/
-│   ├── virtual_environments/
+│   ├── logging/
+│   ├── packaging/
+│   ├── pathlib_os/
 │   ├── pip/
 │   ├── pipenv/
 │   ├── poetry/
-│   ├── conda/
-│   ├── environment_variables/
 │   ├── setting_path/
 │   ├── switching_python_versions/
-│   ├── packaging/
-│   └── ci_cd/
+│   ├── toml/
+│   └── virtual_environments/
+│
 ├── 05_EXERCISES/
-│   ├── dsa/
-│   └── ... (topic-based practice sets, WIP until finished)
 ├── 06_PROJECTS/
-│   ├── mini_projects/
-│   ├── api_projects/
-│   ├── csv_to_html/
-│   ├── file_organizer/
-│   ├── excel_automation/
-│   └── pdf_automation/
-├── _WIP/                  (in-progress project work, local reference only)
-└── Tutorials/              (downloaded course videos, local reference only)
+│
+├── Tutorials/      (local learning resources)
+└── _WIP/           (work in progress, excluded from Git)
 ```
 
-## Topics Covered
+---
 
-### 01 — Core
+## Learning Roadmap
 
-* Data types: strings, integers/floats, lists/tuples/sets, dictionaries
-* Control flow: conditionals, loops, iteration
+### 01 — Core Python
+
+Build a strong foundation in the Python language.
+
+Topics include:
+
+* Data types
+* Control flow
 * Functions
-* Standard library modules: `os`, `pathlib`, `datetime`, `csv`, `json`, `sqlite3`, `subprocess`
+* Modules
+* Standard Library (`os`, `pathlib`, `datetime`, `csv`, `json`, `sqlite3`, `subprocess`, etc.)
 
-### 02 — OOP and Intermediate
+---
 
-* Classes and objects, inheritance, encapsulation, abstraction, polymorphism
-* Instance vs. class/static methods and attributes
-* Exception handling and file handling
-* Comprehensions, regular expressions, itertools, collections
+### 02 — Object-Oriented & Intermediate Python
 
-### 03 — Advanced
+Develop reusable, maintainable Python programs.
 
-* Decorators, generators, iterators, context managers
-* Concurrency (threading, asyncio)
-* Type hints, dataclasses
-* Unit testing (`unittest`, `pytest`)
+Topics include:
+
+* Object-Oriented Programming
+* Exception handling
+* File handling
+* Comprehensions
+* Generators
+* Decorators
+* Itertools
+* Collections
+* Regular expressions
+
+---
+
+### 03 — Advanced Python
+
+Explore advanced language features and runtime concepts.
+
+Topics include:
+
+* Iterators
+* Concurrency
+* Unit testing
+* Additional advanced topics added as learning progresses
+
+---
 
 ### 04 — Software Engineering
 
-* Git and GitHub
-* Virtual environments (venv, pipenv, poetry, conda)
-* Environment variables, PATH configuration, switching Python versions
-* Packaging and CI/CD fundamentals
+Learn the tools and practices used in professional Python development.
+
+Topics include:
+
+* Git & GitHub
+* Virtual environments
+* pip, Conda, Pipenv & Poetry
+* Environment variables
+* Python version management
+* Packaging & `pyproject.toml`
+* TOML
+* Logging
+* Databases
+* APIs
+* CI/CD
+* Data Structures & Algorithms
+* Design Patterns
+
+---
 
 ### 05 — Exercises
 
-* Topic-based practice sets (conditionals/loops, dictionaries, functions, file handling, OOP)
-* Data Structures & Algorithms notebooks
-* Kept as work-in-progress until each set is complete, then tracked in git
+A collection of focused practice problems used to reinforce concepts learned throughout the repository.
+
+Exercises range from beginner fundamentals to more advanced programming challenges.
+
+---
 
 ### 06 — Projects
 
-* Mini projects: bank account system, student grade system
-* API projects: working with `requests` and REST APIs
-* Automation projects: CSV-to-HTML, file organizer, Excel automation, PDF automation
+Practical applications built using the concepts learned throughout this repository.
+
+Projects range from small utilities and automation scripts to larger software engineering projects.
+
+---
 
 ## Repository Goals
 
-This repository is intended to:
+This repository is designed to:
 
-* Build a strong foundation in Python
-* Practice writing clean and maintainable code
-* Explore Python's standard library
-* Develop software engineering best practices
-* Create progressively more complex projects
-* Serve as a long-term reference for future AI, automation, and backend development
+* Build a deep understanding of Python.
+* Document concepts in a reusable knowledge base.
+* Practice writing clean, maintainable, and well-structured code.
+* Explore Python's standard library and ecosystem.
+* Learn modern software engineering practices.
+* Develop progressively larger real-world projects.
+* Create a long-term reference for backend development, automation, data science, and AI engineering.
+
+---
 
 ## Technologies
 
@@ -118,13 +170,24 @@ This repository is intended to:
 * Jupyter Notebook
 * Git
 * GitHub
-
-## Notes
-
-Most folders contain both notebooks used for learning and standalone Python scripts used for experimentation and implementation. `_WIP/` holds project work that's genuinely in progress and is excluded from version control entirely — once a project is finished, it moves into its proper home under `06_PROJECTS/` and becomes visible in the repo for the first time. `Tutorials/` holds downloaded course videos for personal reference only and is likewise excluded from version control entirely.
-
-As I continue learning, existing code will be refactored and improved to reflect better design practices and cleaner architecture.
+* Markdown
 
 ---
 
-*This repository is actively maintained as part of my software engineering and AI learning journey.*
+## Notes
+
+This repository contains a mixture of:
+
+* Jupyter notebooks for exploration and learning
+* Python scripts for implementation and experimentation
+* Markdown notes for documenting concepts and best practices
+* Exercises for reinforcement
+* Projects demonstrating practical application
+
+The repository is intentionally iterative. As new concepts are learned, older material is revisited, improved, and refactored to reflect better design decisions and coding practices.
+
+Local resources such as downloaded tutorials and unfinished experiments are kept outside version control until they are ready to become part of the repository.
+
+---
+
+> *"Mastery is not achieved by finishing tutorials, but by continuously building, revisiting, refining, and applying what you learn."*
