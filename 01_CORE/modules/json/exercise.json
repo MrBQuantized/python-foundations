@@ -1,0 +1,34 @@
+{
+    "function": "send_email",
+    "arguments": {
+        "recipient":"James",
+        "subject": "Meeting Reminder",
+        "body": "Project Meeting has been moved to 3 PM tomorrow."
+    }
+}
+
+
+{
+    "function": "search_contact",
+    "arguments": {
+        "name": "Sarah"
+    },
+    "function": "send_email",
+    "arguments": {
+        "email": "...",
+        "subject": "...",
+        "body": "..."
+    } 
+}
+
+{
+    "contact_id": 12,
+    "email": "Sarah@gmail.com",
+    "status": "unread"
+}
+
+
+{
+    
+
+}
