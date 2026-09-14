@@ -21,7 +21,7 @@ counter = itertools.count()
 # for num in counter:
     # print(num)  
 
-# Instead of using a for-loop, wecan use the next() function and pass in the iterator.
+# Instead of using a for-loop, we can use the next() function and pass in the iterator.
 # This would prints all the next values one-by-one each time it is printed
 # print(next(counter))
 # print(next(counter))

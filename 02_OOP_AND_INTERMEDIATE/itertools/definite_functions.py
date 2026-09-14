@@ -1,12 +1,13 @@
 """
 Python Script on itertools
+Covers definite itertools functions
 
 Definite functions: These are functions that will eventually terminate.
 We will first deal with the most common ones — Combinations and Permutations.
 These methods are ways to count groups/sequences/iterables, but with a little caveat:
 
-    Combination  : The order does not matter
-    Permutation  : The order matters
+    Combination :  The order does not matter
+    Permutation :  The order matters
 
 These arrangement methods do not repeat values (i.e. a,a or  b,b).
 

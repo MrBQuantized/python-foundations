@@ -20,17 +20,17 @@ changes.
 # The balance attribute is fully exposed, so clients can set it to any
 # value, including an invalid one like a negative balance.
 
-class BadBankAccount:
-    def __init__(self, balance):
-        self.balance = balance
+# class BadBankAccount:
+#     def __init__(self, balance):
+#         self.balance = balance
 
 
-account = BadBankAccount(0.0)
-account.balance = -1  # Not ideal. Clients shouldn't be allowed to set an invalid balance.
-print(account.balance)
+# account = BadBankAccount(0.0)
+# account.balance = -1             # Not ideal. Clients shouldn't be allowed to set an invalid balance.
+# print(account.balance)
 
-# There's no validation and no way to prevent direct, unchecked
-# modification of the balance.
+# There's no validation and no way to prevent direct, 
+# unchecked modification of the balance.
 
 # Let's refactor the code using encapsulation.
 
@@ -44,7 +44,7 @@ print(account.balance)
 
 class BankAccount:
     def __init__(self):
-        self._balance = 0.0  # Protected attribute
+        self._balance = 1000.0  # Protected attribute
 
     @property
     def balance(self):
@@ -66,14 +66,14 @@ class BankAccount:
 # Create account object
 account = BankAccount()
 print(account.balance)
-account.deposit(1.99)
+account.deposit(200)
 print(account.balance)
-account.withdraw(1)
+account.withdraw(35)
 print(account.balance)
 
 # Attempt to withdraw more than the balance
 try:
-    account.withdraw(100)  # Raises an error. Can't withdraw more than the balance.
+    account.withdraw(10000)  # Raises an error. Can't withdraw more than the balance.
 except ValueError as error:
     print(f"Withdrawal failed: {error}")
 
@@ -130,5 +130,9 @@ except ValueError as error:
 
 print(account.balance)
 
-# The setter still enforces validation, so invalid values are rejected
-# even when assigning directly to the property.
+# The setter still enforces validation, so invalid values 
+# are rejected even when assigning directly to the property.
+
+# NOTE: Setter added only to demonstrate @property.
+# In real BankAccount, balanxe is typpically read-only and modified
+# through deposit() and withdrawal() to enforce business rule.

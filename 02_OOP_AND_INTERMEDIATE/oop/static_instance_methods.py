@@ -1,14 +1,14 @@
-"""Practice script for OOP. 
-Covers static and instance methods, and private and protected methods .
 """
+Practice script for OOP. 
 
-# =================================================
+Topic: Static and Instance Methods
+
 # Static Vs Instance Methods
-# =================================================
-"""
-# Static Method
+============================
+
+## Static Method
 ================
-- A Static method in Python is a method that belongs to the class itself
+- A Static method in Python is a method defined inside a class
 rather than any instance of the class (It doesn't have `self`).
 - To define a static method, we use the `@staticmethod` decorator
 - Ideal for tasks related to class domain but not related to any 
@@ -18,13 +18,21 @@ format methods or process outputs independent of instances
 
 # Instance Method
 ================
-- An Instance method works with specific objects and can access or 
+- Has `self`.
+- An Instance method works with specific objects 
+- Can access or 
 modify it's attributes
-- It has `self`.
 
 Both methods are inside a class
+
+Tip:
+Experiment with the code by commenting, uncommenting, modifying, or
+adding lines and rerunning the script to observe the results.
 """
 
+# =================================================
+# Creating Static and Instance Methods
+# =================================================
 class BankAccount:
     MIN_BALANCE = 100   # Capitalize constants in python
     
@@ -57,17 +65,17 @@ print(BankAccount.is_valid_interest_rate(8))
 # =================================================
 # Creating Private and Protected Method
 # =================================================
-"""Private and protected methods are created in the same manner as 
-with attributes.
-Single underscore for protected methods and double underscores for 
-private methods:    
+# Private and protected methods are created in the same manner as 
+# with attributes.
+# Single underscore for protected methods and double underscores for 
+# private methods:    
 
-    1. Private: __method(), 
-    2. Protected: _method()
+#     1. Private: __method(), 
+#     2. Protected: _method()
     
-Protected methods may still be accessible outside of the class, but 
-private methods are completely for internal use only. 
-"""
+# Protected methods may still be accessible outside of the class, but 
+# private methods are completely for internal use only. 
+
 class BankAccount:
     MIN_BALANCE = 100  
     

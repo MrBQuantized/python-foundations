@@ -2,9 +2,10 @@
 We want to perform some calculations on a worksheet
 """
 
-import openpyxl
 import datetime as dt
 from pathlib import Path
+
+import openpyxl
 
 PATH = Path(__file__).resolve().parents[0]
 print(PATH)

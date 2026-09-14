@@ -335,7 +335,7 @@ print(user1.get_email())
 # These properties are the more python ways of 
 # reading and manipulating data
 
-# == Steps to creating property==
+# == Steps to creating property ==
 # 1. Make the attribute private by prefixing with single underscore
 # 2. State the getter property decorator (@property) 
 # 3. Create a method with the same name as the attribute we are creating the property for.
@@ -364,3 +364,5 @@ user1 = User("altman", " Alt@gmail.com ", "123")
 user1.email = "this is not an email"
 print(user1.email)
 
+# With @property yoou don't haveto call the getter or setter methods directly at all.
+# Instead you the attribute as it were a normal variable

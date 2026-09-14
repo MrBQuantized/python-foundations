@@ -54,24 +54,24 @@ for f in os.listdir():
 # Let's go further by splitting each filename on its underscore
 # delimiter.
 
-# for f in os.listdir():
-#     file_name, file_ext = os.path.splitext(f)
-#     print(file_name.split('_'), end='')  # Returns a list of substrings
-#     print()
+for f in os.listdir():
+    file_name, file_ext = os.path.splitext(f)
+    print(file_name.split('_'), end='')  # Returns a list of substrings
+    print()
 
 # =================================================
 # Example 4: Extracting and Formatting the Parts
 # =================================================
 # We can unpack the list of substrings into individual variables.
 
-# for f in os.listdir():
-#     file_name, file_ext = os.path.splitext(f)
-#     f_title, f_course_head, f_course_tail, f_num = file_name.split('_')
-#     # Combine course head and tail into one variable
-#     f_course = f'{f_course_head} {f_course_tail}'
-#
-#     # Print the files in the format we want
-#     print(f'{f_num}-{f_title}-{f_course}{file_ext}')
+for f in os.listdir():
+    file_name, file_ext = os.path.splitext(f)
+    f_title, f_course_head, f_course_tail, f_num = file_name.split('_')
+    # Combine course head and tail into one variable
+    f_course = f'{f_course_head} {f_course_tail}'
+
+    # Print the files in the format we want
+    print(f'{f_num}-{f_title}-{f_course}{file_ext}')
 
 # =================================================
 # Example 5: Zero-Padding and Renaming the Files
@@ -79,22 +79,22 @@ for f in os.listdir():
 # We can refine f_num further by slicing off the leading "#" symbol
 # and zero-padding single-digit numbers so they line up consistently.
 
-# for f in os.listdir():
-#     file_name, file_ext = os.path.splitext(f)
-#
-#     f_title, f_course_head, f_course_tail, f_num = file_name.split('_')
-#     f_course = f'{f_course_head} {f_course_tail}'
-#
-#     # Strip any stray whitespace
-#     f_title = f_title.strip()
-#     f_course = f_course.strip()
-#     f_num = f_num.strip()[1:].zfill(2)  # zfill(2) pads to 2 digits wide; "10" is already 2 digits, so it's unchanged.
-#
-#     # Rename the files using the format we want
-#     new_name = f'{f_num}-{f_course}{file_ext}'
-#
-#     os.rename(f, new_name)
+for f in os.listdir():
+    file_name, file_ext = os.path.splitext(f)
+
+    f_title, f_course_head, f_course_tail, f_num = file_name.split('_')
+    f_course = f'{f_course_head} {f_course_tail}'
+
+    # Strip any stray whitespace
+    f_title = f_title.strip()
+    f_course = f_course.strip()
+    f_num = f_num.strip()[1:].zfill(2)  # zfill(2) pads to 2 digits wide; "10" is already 2 digits, so it's unchanged.
+
+    # Rename the files using the format we want
+    new_name = f'{f_num}-{f_course}{file_ext}'
+
+    os.rename(f, new_name)
 
 # Confirm the changes
-# for f in os.listdir():
-#     print(f)
+for f in os.listdir():
+    print(f)

@@ -1,5 +1,4 @@
 import openpyxl
-import os
 from pathlib import Path
 
 PATH = Path(__file__).resolve().parents[0]

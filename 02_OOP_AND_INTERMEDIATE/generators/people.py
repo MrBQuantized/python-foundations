@@ -23,14 +23,14 @@ def people_list(num_people):
     return result
 
 
-def people_generator(num_people):
-    for i in range(num_people):
-        person = {
-            'id': i,
-            'name': random.choice(names),
-            'major': random.choice(majors)
-        }
-        yield(person)
+# def people_generator(num_people):
+#     for i in range(num_people):
+#         person = {
+#             'id': i,
+#             'name': random.choice(names),
+#             'major': random.choice(majors)
+#         }
+#         yield(person)
 
 t1 = time.process_time()
 people = people_list(1000_000)

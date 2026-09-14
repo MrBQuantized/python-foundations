@@ -16,22 +16,20 @@ adding lines and rerunning the script to observe the results.
 
 
 class User:
-    user_count = 0
-    """static attribute initialized to zero"""
+    user_count = 0       # static attribute initialized to zero
     
     def __init__(self, username, email):
-        """Instance attributes created in the init method"""
         self.username = username
         self.email = email
-        # Increment the static attribute by 1 whenever an object is created
+        # Increment of the static attribute by 1 whenever an object is created
         User.user_count += 1
         
     def display_user(self):
         """Display user info"""
         print(f"Username: {self.username}, Email: {self.email}")
         
-user1 =User("Nathaniel", "nathan@gmail.com")
-user2 =User("Emily", "emmy@gmail.com")
+user1 = User("Nathaniel", "nathan@gmail.com")
+user2 = User("Emily", "emmy@gmail.com")
 
 
 # print(User.user_count)

@@ -28,8 +28,8 @@ values = [10, 5, 6, 0, 9, 8, 2]
 #         print(int('Hello'))
 #     except ZeroDivisionError as e:      # ZeroDivision is an explicit exception
 #         print(str(e))  
-#     except ValueError as v:
-#         print(v)
+#     except ValueError as e:
+#         print(e)
 
 # If we include the general/broad exception clause just in case we get unexpected errors, we should log it.
 import logging
@@ -41,7 +41,7 @@ for value in values:
         print(10 / int(value))
     except ValueError as e:
         print("Value error")
-    except ZeroDivisionError as e:    # ZeroDivision is an explicit exception
+    except ZeroDivisionError as e:    # ZeroDivisionError is an explicit exception
         print("Zero division error")     
     except Exception as e:
         logging.exception(e)

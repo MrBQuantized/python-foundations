@@ -116,22 +116,22 @@ print(emp_1.__str__())
 # Built-in types implement arithmetic operators through dunder methods.
 # Defining __add__ lets us apply the same operator to our own objects.
 
-print(int.__add__(1, 2))       # Addition for numeric types
-print(str.__add__('a', 'b'))   # Concatenation for strings
+# print(int.__add__(1, 2))       # Addition for numeric types
+# print(str.__add__('a', 'b'))   # Concatenation for strings
 
-# Applying this to our Employee objects
-print(emp_1 + emp_2)
-print(emp_1.__add__(emp_2))
+# # Applying this to our Employee objects
+# print(emp_1 + emp_2)
+# print(emp_1.__add__(emp_2))
 
 
-# =================================================
-# Example 4: The __len__ Method
-# =================================================
-# __len__ lets our object work with the built-in len() function.
+# # =================================================
+# # Example 4: The __len__ Method
+# # =================================================
+# # __len__ lets our object work with the built-in len() function.
 
-print(len('test'))        # The number of characters in a container
-print('test'.__len__())
+# print(len('test'))        # The number of characters in a container
+# print('test'.__len__())
 
-# We can use it on our own object after defining
-# the method in our class
-print(len(emp_1))
+# # We can use it on our own object after defining
+# # the method in our class
+# print(len(emp_1))

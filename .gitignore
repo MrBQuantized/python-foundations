@@ -63,7 +63,8 @@ $RECYCLE.BIN/
 *.rar
 
 # ======================
-# WIP — unfinished project work, hidden until moved into 06_PROJECTS/
+# WIP — unfinished project work, 
+# hidden until moved into 06_PROJECTS/
 # ======================
 _WIP/
 
@@ -82,3 +83,19 @@ _WIP/
 **/*.md
 # Keep only the readme file  in the parent directory
 !**/README.md
+
+# ======================
+# MISCELLANEOUS FILES
+# ======================
+# Ignore all data files in subfolders
+**/*.csv 
+**/*.jpg
+**/*.png
+**/*.doc
+**/*.docx
+**/*.txt
+
+# ======================
+# MISCELLANEOUS FOLDERS
+# ======================
+06_PROJECTS/*/
