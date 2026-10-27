@@ -83,6 +83,7 @@ _WIP/
 **/*.md
 # Keep only the readme file  in the parent directory
 !**/README.md
+!03_ADVANCED/logging/*.md
 
 # ======================
 # MISCELLANEOUS FILES
